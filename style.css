@@ -1,53 +1,59 @@
 /* ngaan */
-/* rest CSS */  
-h2,h3,ul,li,p{
-    margin: 0;
-    padding: 0;
+/* rest CSS */
+h2,
+h3,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 /* Header CSS */
-header{
-    max-width: 1600px;
-    overflow: hidden;
+.bbb {
+  position: relative;
 }
-#logo{
-    display: block;
-    margin-bottom: 0px;  
-    margin-left: auto;
-    margin-right: auto;
-}
- /* NAV CSS */
- nav{
-     padding: 10 0 0 10;
- }
-
- nav ul{list-style: none;}
- nav li{
-    width: 370px;
-    height: 60px;
-    float: left;
-    }
-
-a{
-    display: block;
-    line-height: 60px;
-    text-align: center;
-    color:black;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+#logo {
+  display: block;
+  margin: 0 auto;
 }
 
-a:hover{
-    color:palevioletred;
-    font-weight: bold;
+/* NAV CSS */
+nav {
+  position: absolute;
+  top: 26px;
+  padding: 10 0 0 10;
 }
 
-main{
-    width: 1500px;
-    padding: 20 0 20 20;
-    background-color: #9c9a9a1f;
-    overflow: hidden;
+nav ul {
+  list-style: none;
+}
+nav li {
+  width: 370px;
+  height: 60px;
+  float: left;
+}
+
+a {
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: palevioletred;
+  font-weight: bold;
+}
+
+main {
+  width: 1500px;
+  padding: 20 0 20 20;
+  background-color: #9c9a9a1f;
+  overflow: hidden;
 }
 
 /* Main CSS */
@@ -61,31 +67,30 @@ main{
     color: black;
 } */
 
-#text{
-    text-align: center;
+#text {
+  text-align: center;
 }
 
-#classic{
-    clear: both;
-    background-color:#9c9a9a1f;
+#classic {
+  clear: both;
+  background-color: #9c9a9a1f;
 }
 
-.textsec{
-    width: 450px;
-    padding: 10 10 10 10;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 10px;
-    background-color: white;
-    float: left;
-    text-align: center;
-    
+.textsec {
+  width: 450px;
+  padding: 10 10 10 10;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: white;
+  float: left;
+  text-align: center;
 }
 
-footer{
-    clear: both;
-    padding: 20px;
-    width: 1200;
-    padding: 20px;
-    text-align: right;
+footer {
+  clear: both;
+  padding: 20px;
+  width: 1200;
+  padding: 20px;
+  text-align: right;
 }
